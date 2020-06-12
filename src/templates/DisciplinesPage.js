@@ -10,7 +10,7 @@ import Gallery from '../components/Gallery'
 import Popup from '../components/Popup'
 
 // Export Template for use in CMS preview
-export const DisciplinePageTemplate = ({
+export const DisciplinesPageTemplate = ({
   title,
   subtitle,
   featuredImage,
@@ -35,29 +35,10 @@ export const DisciplinePageTemplate = ({
       </div>
     </section>
 
-    <section className="section">
-      <div className="container">
-        <h2>Our gallery component</h2>
-        <Gallery images={gallery} />
-      </div>
-    </section>
-
-    <section className="section">
-      <div className="container">
-        <Content source={section2} />
-      </div>
-    </section>
-
     <section className="BackgroundVideo-section section">
       <BackgroundVideo poster={videoPoster} videoTitle={videoTitle}>
         {video && <source src={video} type="video/mp4" />}
       </BackgroundVideo>
-    </section>
-
-    <section className="section">
-      <div className="container">
-        <Accordion items={accordion} />
-      </div>
     </section>
 
     <section className="section">
@@ -70,22 +51,21 @@ export const DisciplinePageTemplate = ({
   </main>
 )
 
-const DisciplinePage = ({ data: { page } }) => (
+const DisciplinesPage = ({ data: { page } }) => (
   <Layout
     meta={page.frontmatter.meta || false}
     title={page.frontmatter.title || false}
   >
-    <DisciplinePageTemplate {...page} {...page.frontmatter} body={page.html} />
+    <DisciplinesPageTemplate {...page} {...page.frontmatter} body={page.html} />
   </Layout>
 )
 
-export default DisciplinePage
+export default DisciplinesPage
 
 export const pageQuery = graphql`
-  query DisciplinePage($id: String!) {
+  query DisciplinesPage($id: String!) {
     page: markdownRemark(id: { eq: $id }) {
       ...Meta
-      ...Gallery
       html
       frontmatter {
         title
@@ -93,14 +73,6 @@ export const pageQuery = graphql`
         subtitle
         featuredImage
         section1
-        section2
-        video
-        videoPoster
-        videoTitle
-        accordion {
-          title
-          description
-        }
       }
     }
   }
