@@ -4,9 +4,18 @@ slug: disciplines
 title: Disciplines Page
 featuredImage: https://ucarecdn.com/df0dc650-6938-412f-aefb-2019d2349e13/
 subtitle: This is the components page subtitle.
-sectionPrepa: Section Prepa
-sectionSanda: Section Sanda
-sectionWingChun: Section Wing Chun
+sectionPrepa: |-
+  ## Preparation Physique
+
+  Section Prepa
+sectionSanda: |-
+  ## Sanda
+
+  Section Sanda
+sectionWingChun: |-
+  ## Wing Chun
+
+  Section Wing Chun
 meta:
   description: This is a meta description.
   title: Disciplines
