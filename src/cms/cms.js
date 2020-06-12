@@ -26,7 +26,7 @@ if (
 CMS.registerPreviewTemplate('home-page', ({ entry }) => (
   <HomePageTemplate {...entry.toJS().data} />
 ))
-CMS.registerPreviewTemplate('components-page', ({ entry }) => (
+CMS.registerPreviewTemplate('discipline-page', ({ entry }) => (
   <ComponentsPageTemplate {...entry.toJS().data} />
 ))
 CMS.registerPreviewTemplate('contact-page', ({ entry }) => (
