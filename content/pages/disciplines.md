@@ -1,7 +1,7 @@
 ---
-template: DisciplinePage
-slug: discipline
-title: Discipline Page
+template: DisciplinesPage
+slug: disciplines
+title: Disciplines Page
 featuredImage: 'https://ucarecdn.com/df0dc650-6938-412f-aefb-2019d2349e13/'
 subtitle: This is the components page subtitle.
 section1: >-

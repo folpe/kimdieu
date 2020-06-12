@@ -4,7 +4,7 @@ import './cms-utils'
 
 import { HomePageTemplate } from '../templates/HomePage'
 import { ComponentsPageTemplate } from '../templates/ComponentsPage'
-import { DisciplinePageTemplate } from '../templates/DisciplinePage'
+import { DisciplinesPageTemplate } from '../templates/DisciplinesPage'
 import { ContactPageTemplate } from '../templates/ContactPage'
 import { DefaultPageTemplate } from '../templates/DefaultPage'
 import { BlogIndexTemplate } from '../templates/BlogIndex'
@@ -30,8 +30,8 @@ CMS.registerPreviewTemplate('home-page', ({ entry }) => (
 CMS.registerPreviewTemplate('components-page', ({ entry }) => (
   <ComponentsPageTemplate {...entry.toJS().data} />
 ))
-CMS.registerPreviewTemplate('discipline-page', ({ entry }) => (
-  <DisciplinePageTemplate {...entry.toJS().data} />
+CMS.registerPreviewTemplate('disciplines-page', ({ entry }) => (
+  <DisciplinesPageTemplate {...entry.toJS().data} />
 ))
 CMS.registerPreviewTemplate('contact-page', ({ entry }) => (
   <ContactPageTemplate {...entry.toJS().data} />
