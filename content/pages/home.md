@@ -1,9 +1,9 @@
 ---
 template: HomePage
-slug: ""
+slug: ''
 title: Devenir une meilleure version de soi même
-featuredImage: https://ucarecdn.com/a12d4128-ae74-40b5-8edb-6afd218f0708/
-subtitle: ""
+featuredImage: 'https://ucarecdn.com/e49296d7-3a6c-4318-b09f-c7de2284d8fc/'
+subtitle: ''
 meta:
   description: This is a meta description.
   title: The Ultimate Gatsby Starter
