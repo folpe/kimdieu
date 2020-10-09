@@ -8,23 +8,10 @@ meta:
   description: This is a meta description.
   title: The Ultimate Gatsby Starter
 ---
-Yellowcake is an opinionated starter project created by [Thrive Digital](https://thriveweb.com.au/) a [Gold Coast Web Design](https://thriveweb.com.au/) studio. to help you create lightening fast websites with [Gatsby](https://gatsbyjs.org) and [Netlify CMS](https://netlifycms.org).
+L'École KIM DIÊU a été créée en 1980 à Epinay Sous Sénart (Essonne) .
 
-View the [project overview](https://thriveweb.com.au/the-lab/yellowcake-gatsby-react-js-starter-project/) and the [docs](https://github.com/thriveweb/yellowcake/blob/master/README.md).
+Elle a formé plusieurs champions et élèves passionnés d'arts martiaux chinois, ainsi que des ceintures noires et des professeurs, qui ont maintenant l'honneur de reprendre le flambeau.
 
-# Features
+Toujours encadrés par des professeurs diplômés, des membres de l'équipe de France, vous pourrez trouver la pratique martiale qui vous convient: Sanda, Taolu, Wing Chun ou encore Taijiquan.
 
-* **[Gatsby](https://gatsbyjs.org)** static site generator
-* **[Netlify CMS](https://github.com/netlify/netlify-cms)** for content management
-* Dynamic menus and forms
-* **[Mailchimp](http://mailchimp.com)** and **[Uploadcare](https://uploadcare.com)** integrations
-* Fully responsive layout for mobile and widescreen browsing
-* Blog searching and paging functionality
-* Seamless image and content sliders
-* Instagram feed integration
-
-## Get started
-
-View the [Netlify CMS Docs](https://www.netlifycms.org/docs/) and the [Netlify CMS Repo](https://github.com/netlify/netlify-cms).
-
-[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/thriveweb/yellowcake&stack=cms)
+L'École Kim Diêu vous accueille six jours sur sept, du mois de septembre au mois de juillet.
